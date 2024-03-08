@@ -1,0 +1,77 @@
+.main-wrap{
+    height: 100vh;
+    background-color: #f9f9f9;
+}
+.prim-btn{
+    z-index: 9999;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    height: 50px;
+    width: 200px;
+    background: #46af82;
+    border: solid #46af82;
+    padding: 10px 20px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 3px;
+    font-size: 17px;
+    font-weight: 400;
+    text-transform: capitalize;
+    &:hover{
+        background: #46af82;
+        border: solid #46af82;
+    }
+}
+.segment-mod{
+    .modal-dialog{
+        position: fixed;
+        right: 0;
+        top: 0;
+        height: 100%;
+        width: 420px;
+        margin-top: 0;
+    }
+    .modal-content{
+        height: 100%;
+        border-radius: 0;
+    }
+    .modal-header{
+        background: #65d1e4;
+        border-radius: 0;
+    }
+    .modal-footer {
+        background-color: #f1f1f1;
+        border-top: 0;
+        justify-content: flex-start;
+        .btn{
+            font-weight: 600;
+        }
+        .btn-cancel{
+            color: #ae1111;
+        }
+        .btn-save{
+            background: #46af82;
+            border: 0;
+            padding: 10px 20px;
+            color: #fff;        
+        }
+    }
+    .link-btn {
+        background: transparent;
+        border: 0;
+        margin-top: 20px;
+        border-bottom: 1px solid;
+        color: #46af82;
+        font-weight: 600;
+    }
+    .form-group {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 35px;
+        label{
+            margin: 20px 0;           
+        }
+    }
+}
